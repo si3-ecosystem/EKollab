@@ -1,0 +1,6 @@
+.Campaign-table{
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0; /* Ensure there is no space between the cells */
+    min-width: 800px;
+}

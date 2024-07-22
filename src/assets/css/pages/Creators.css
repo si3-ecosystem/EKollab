@@ -1,0 +1,245 @@
+.creators-header{
+    display: flex;
+    align-items: center;
+}
+.creators-header-first{
+    flex:1;
+    text-align: left;
+}
+.creators-header-second{
+    text-align: right;
+}
+.creators-header-second-btn{
+    margin-left: 20px;
+}
+.creators-main-analyzing{
+
+}
+.creator-table-handler{
+    display: flex;
+}
+#table-search-input{
+    padding: 3px;
+    border: none;
+    background: #fff;  
+    padding: 6px 10px;
+    width: 100%;
+    outline: none;
+  }
+#table-search-input::placeholder {
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+  }
+.table-search-form{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 300px;
+    margin: auto;
+}
+.filter-form{
+    display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 110px;
+  margin: auto;
+  margin-left: 20px;
+}
+.setting-form{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 110px;
+    margin: auto;
+    margin-left: 20px;
+}
+.creators-main-table{
+    overflow-x: auto;
+}
+.creators-table{
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0; /* Ensure there is no space between the cells */
+    min-width: 800px;
+}
+.creator-table-header{
+    background-color: #000;
+}
+table tr th{
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 4%;
+    color: white;
+}
+table tr td{
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 4%;
+    color: black;
+}
+table tr th,td{
+    padding: 20px 20px;
+}
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+    
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+table.rounded-corners {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+table tr {
+    background-color: white;
+    border-bottom: solid 1px #F5F5FE;
+}
+table tr td button {
+    font-family: "ClashDisplay";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #746868;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+table tr td span {
+    font-family: "ClashDisplay";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #746868;
+}
+
+.creators-create{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 50%; /* Position the top of the parent tag at the middle vertically */
+  left: 50%; /* Position the left of the parent tag at the middle horizontally */
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.creators-main-create{
+    background-color: white;
+    padding: 40px 20px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.creators-main-create div input {
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #746868;
+    border: solid 1px #746868;
+    border-radius: 10px;
+    padding: 12px 15px;
+    width: 700px;
+    margin-top: 10px;
+}
+.creators-create-button-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.creators-create-btn{
+    width: 48%;
+}
+.creators-create-cancel-btn{
+    background-color: white;
+    border: solid 1px black;
+}
+.creators-create-cancel-btn:hover{
+    background-color: black;
+    color: white;
+}
+.creators-create-create-btn{
+    color: white;
+}
+.creators-create-create-btn:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+}
+.creators-button-break{
+    display: none;
+}
+.creator-table-search-container{
+    text-align: right;
+}
+.creator-table-main-search{
+    display: flex;
+}
+.creator-margin{
+    margin-top: 0px;
+}
+@media only screen and (max-width: 1190px) {
+    .creators-header{
+        display: block;
+        align-items: center;
+    }
+    .creators-header-second{
+        text-align: left;
+    }
+    .creator-table-handler{
+        display: block;
+    }
+    .creator-table-search-container{
+        text-align: left;
+    }
+    .creator-table-main-search{
+        display: block;
+    }
+    .table-search-form{
+        margin-left: 0px;
+    }
+    .creator-margin{
+        margin-top: 10px;
+    }
+    .filter-form{
+        margin-left: 0px;
+    }
+    .setting-form{
+        margin-left: 0px;
+    }
+    .creators-main-create{
+        width: 90%;
+    }
+    .creators-main-create div input {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .creators-header-second-btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .creators-button-break{
+        display: block;
+    }
+    .table-search-form{
+        width: 200px;
+    }
+}

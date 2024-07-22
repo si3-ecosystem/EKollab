@@ -1,0 +1,52 @@
+.community-header{
+    display: flex;
+}
+.community-header-first{
+    flex:1;
+    text-align: left;
+}
+.community-header-second{
+    text-align: right;
+}
+.community-table-tab{
+    display: flex;
+    border-bottom: solid 1px white;
+}
+.community-table-tab-button-container{
+    padding: 10px 0;
+    cursor: pointer;
+}
+.community-table-tab-button{
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #746868;
+}
+.community-table-tab-button-spacer{
+    width: 30px;
+}
+.community-div-active{
+    border-bottom: solid 2px black;
+}
+.community-div-active span {
+    color: black!important;
+}
+.community-table-container{
+    padding: 30px 0px;
+}
+.community-table{
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0; /* Ensure there is no space between the cells */
+    min-width: 1000px;
+}
+@media only screen and (max-width: 1190px) {
+    .community-header{
+        display: block;
+    }
+    .community-header-second{
+        text-align: left;
+        margin-top: 10px;
+    }
+}

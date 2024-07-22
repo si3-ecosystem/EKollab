@@ -1,0 +1,38 @@
+.dashboard-content{
+    padding: 35px 45px;
+    width: 100%;
+    overflow-y: auto;
+    height:calc(100vh - 59px);
+}
+.dashboard-main-container{
+
+}
+.dashboard-column-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-analyzing{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 15px 20px;
+}
+@media only screen and (max-width: 1090px) {
+    .dashboard-content{
+        padding: 35px 80px;
+    }
+    .dashboard-column-container{
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dashboard-content{
+        padding: 25px 10px;
+        padding-left: 45px;
+    }
+    .dashboard-column-container{
+        display: block;
+    }
+    .dashboard-analyzing{
+        padding: 10px 0px;
+    }
+}

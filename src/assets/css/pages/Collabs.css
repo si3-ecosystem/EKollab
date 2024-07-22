@@ -1,0 +1,43 @@
+.collab-main-table{
+    margin-top: 30px;
+}
+.collab-main-pages{
+    padding: 30px 0px;
+}
+.collab-select{
+    width: 100%;
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #746868;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+}
+.collab-select option {
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #746868;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.collab-textarea{
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-family: "ClashDisplay";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #746868;
+    padding: 15px 10px;
+}
