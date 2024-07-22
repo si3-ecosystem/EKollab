@@ -20,12 +20,14 @@ function Header(props) {
             </button>
           </form>
         </div>
+
         <div className='header-left-sub-container'>
           <img className='header-icon-image' src={message} alt='' />
-          <img className='header-icon-image' src={help} alt='' />
+          <img className='header-icon-image' src={help } alt='' />
           <div className='header-user-container'>
-            <span className='small-text'>Naveed12</span>
-            <img className='user-icon-image' src={eye } alt='' />
+            <span className='small-text'>Salam</span>
+            <img className='user-icon-image' src={eye} alt='' />
+            checking
           </div>
         </div>
       </div>
