@@ -25,7 +25,7 @@ function Header(props) {
           <img className='header-icon-image' src={help} alt='' />
           <div className='header-user-container'>
             <span className='small-text'>Naveed12</span>
-            <img className='user-icon-image' src={eye} alt='' />
+            <img className='user-icon-image' src={eye } alt='' />
           </div>
         </div>
       </div>
