@@ -41,7 +41,7 @@ function Navbar() {
       </div>
       <div id='sidebar' className='navbar-inner'>
         <div>
-          <span className='middle-title'>Si Her on BASE</span>
+          <span className='middle-title'>SI&lt;3&gt; Ecollab</span>
         </div>
         <div className='sidebar-main-container'>
           <div className={location.pathname === "/" ? 'sidebar-active' : 'sidebar-link-container'} onClick={() => goPage('/')}>
